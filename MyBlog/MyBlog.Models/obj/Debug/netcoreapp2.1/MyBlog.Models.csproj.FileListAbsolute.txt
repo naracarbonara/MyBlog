@@ -1,0 +1,8 @@
+D:\GitHub\MyBlog\MyBlog\MyBlog.Models\bin\Debug\netcoreapp2.1\MyBlog.Models.deps.json
+D:\GitHub\MyBlog\MyBlog\MyBlog.Models\bin\Debug\netcoreapp2.1\MyBlog.Models.dll
+D:\GitHub\MyBlog\MyBlog\MyBlog.Models\bin\Debug\netcoreapp2.1\MyBlog.Models.pdb
+D:\GitHub\MyBlog\MyBlog\MyBlog.Models\obj\Debug\netcoreapp2.1\MyBlog.Models.csprojAssemblyReference.cache
+D:\GitHub\MyBlog\MyBlog\MyBlog.Models\obj\Debug\netcoreapp2.1\MyBlog.Models.AssemblyInfoInputs.cache
+D:\GitHub\MyBlog\MyBlog\MyBlog.Models\obj\Debug\netcoreapp2.1\MyBlog.Models.AssemblyInfo.cs
+D:\GitHub\MyBlog\MyBlog\MyBlog.Models\obj\Debug\netcoreapp2.1\MyBlog.Models.dll
+D:\GitHub\MyBlog\MyBlog\MyBlog.Models\obj\Debug\netcoreapp2.1\MyBlog.Models.pdb

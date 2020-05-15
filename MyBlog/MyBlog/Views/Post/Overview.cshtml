@@ -1,0 +1,28 @@
+﻿@model List<MyBlog.Models.Post>;
+
+@{
+    Layout = "_Layout";
+    ViewBag.Title = "Yoga Blog";
+ }
+
+
+
+    <div class="row">
+        @foreach (var post in Model)
+        {
+            <div class="col-md-12">
+                <div class="card" style="width: 50%; margin: 0 auto; margin-top:20px;">
+                    <img class="card-img-top" src="@post.ImageUrl" alt="card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title"> @post.Title </h5>
+                        <p class="card-text">@post.Description</p>
+                        <a href="/Post/Details/@post.Id" class="btn btn-primary">See more</a>
+                    </div>
+                </div>
+
+            </div>
+        }
+       
+ </div>
+
+

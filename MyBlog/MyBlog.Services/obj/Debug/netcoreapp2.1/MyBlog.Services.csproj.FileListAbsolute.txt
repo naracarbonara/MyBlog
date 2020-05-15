@@ -1,0 +1,13 @@
+D:\GitHub\MyBlog\MyBlog\MyBlog.Services\bin\Debug\netcoreapp2.1\MyBlog.Services.deps.json
+D:\GitHub\MyBlog\MyBlog\MyBlog.Services\bin\Debug\netcoreapp2.1\MyBlog.Services.dll
+D:\GitHub\MyBlog\MyBlog\MyBlog.Services\bin\Debug\netcoreapp2.1\MyBlog.Services.pdb
+D:\GitHub\MyBlog\MyBlog\MyBlog.Services\bin\Debug\netcoreapp2.1\MyBlog.Models.dll
+D:\GitHub\MyBlog\MyBlog\MyBlog.Services\bin\Debug\netcoreapp2.1\MyBlog.Repositories.dll
+D:\GitHub\MyBlog\MyBlog\MyBlog.Services\bin\Debug\netcoreapp2.1\MyBlog.Repositories.pdb
+D:\GitHub\MyBlog\MyBlog\MyBlog.Services\bin\Debug\netcoreapp2.1\MyBlog.Models.pdb
+D:\GitHub\MyBlog\MyBlog\MyBlog.Services\obj\Debug\netcoreapp2.1\MyBlog.Services.csprojAssemblyReference.cache
+D:\GitHub\MyBlog\MyBlog\MyBlog.Services\obj\Debug\netcoreapp2.1\MyBlog.Services.AssemblyInfoInputs.cache
+D:\GitHub\MyBlog\MyBlog\MyBlog.Services\obj\Debug\netcoreapp2.1\MyBlog.Services.AssemblyInfo.cs
+D:\GitHub\MyBlog\MyBlog\MyBlog.Services\obj\Debug\netcoreapp2.1\MyBlog.Services.csproj.CopyComplete
+D:\GitHub\MyBlog\MyBlog\MyBlog.Services\obj\Debug\netcoreapp2.1\MyBlog.Services.dll
+D:\GitHub\MyBlog\MyBlog\MyBlog.Services\obj\Debug\netcoreapp2.1\MyBlog.Services.pdb

@@ -6,7 +6,6 @@ D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\MyBlog.AssemblyInfo.cs
 D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\MyBlog.TagHelpers.input.cache
 D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\MyBlog.TagHelpers.output.cache
 D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\MyBlog.RazorCoreGenerate.cache
-D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
 D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\MyBlog.RazorTargetAssemblyInfo.cache
 D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\MyBlog.RazorTargetAssemblyInfo.cs
 D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\MyBlog.dll
@@ -23,3 +22,14 @@ D:\GitHub\MyBlog\MyBlog\MyBlog\bin\Debug\netcoreapp2.1\MyBlog.Views.dll
 D:\GitHub\MyBlog\MyBlog\MyBlog\bin\Debug\netcoreapp2.1\MyBlog.Views.pdb
 D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\MyBlog.Views.pdb
 D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\MyBlog.csproj.CopyComplete
+D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\Razor\Views\Info\AboutUs.cshtml.g.cs
+D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\Razor\Views\Info\ContactUs.cshtml.g.cs
+D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\Razor\Views\Post\Details.cshtml.g.cs
+D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\Razor\Views\Post\Overview.cshtml.g.cs
+D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\GitHub\MyBlog\MyBlog\MyBlog\bin\Debug\netcoreapp2.1\MyBlog.Models.dll
+D:\GitHub\MyBlog\MyBlog\MyBlog\bin\Debug\netcoreapp2.1\MyBlog.Repositories.dll
+D:\GitHub\MyBlog\MyBlog\MyBlog\bin\Debug\netcoreapp2.1\MyBlog.Services.dll
+D:\GitHub\MyBlog\MyBlog\MyBlog\bin\Debug\netcoreapp2.1\MyBlog.Services.pdb
+D:\GitHub\MyBlog\MyBlog\MyBlog\bin\Debug\netcoreapp2.1\MyBlog.Models.pdb
+D:\GitHub\MyBlog\MyBlog\MyBlog\bin\Debug\netcoreapp2.1\MyBlog.Repositories.pdb

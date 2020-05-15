@@ -4,15 +4,18 @@
     "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog\\MyBlog.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog\\MyBlog.csproj": {
+    "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Models\\MyBlog.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog\\MyBlog.csproj",
-        "projectName": "MyBlog",
-        "projectPath": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog\\MyBlog.csproj",
+        "projectUniqueName": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Models\\MyBlog.Models.csproj",
+        "projectName": "MyBlog.Models",
+        "projectPath": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Models\\MyBlog.Models.csproj",
         "packagesPath": "C:\\Users\\Natasa\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog\\obj\\",
+        "outputPath": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Models\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
           "C:\\Users\\Natasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
@@ -27,6 +30,192 @@
         "frameworks": {
           "netcoreapp2.1": {
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Repositories\\MyBlog.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Repositories\\MyBlog.Repositories.csproj",
+        "projectName": "MyBlog.Repositories",
+        "projectPath": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Repositories\\MyBlog.Repositories.csproj",
+        "packagesPath": "C:\\Users\\Natasa\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Natasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Models\\MyBlog.Models.csproj": {
+                "projectPath": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Models\\MyBlog.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Services\\MyBlog.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Services\\MyBlog.Services.csproj",
+        "projectName": "MyBlog.Services",
+        "projectPath": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Services\\MyBlog.Services.csproj",
+        "packagesPath": "C:\\Users\\Natasa\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Natasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Repositories\\MyBlog.Repositories.csproj": {
+                "projectPath": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Repositories\\MyBlog.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog\\MyBlog.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog\\MyBlog.csproj",
+        "projectName": "MyBlog",
+        "projectPath": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog\\MyBlog.csproj",
+        "packagesPath": "C:\\Users\\Natasa\\.nuget\\packages\\",
+        "outputPath": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Natasa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Services\\MyBlog.Services.csproj": {
+                "projectPath": "D:\\GitHub\\MyBlog\\MyBlog\\MyBlog.Services\\MyBlog.Services.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -54,6 +243,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[2.1.10, )"
             }
           },
           "imports": [

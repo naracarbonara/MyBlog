@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "MyBlog.Repositories/1.0.0": {
+        "dependencies": {
+          "MyBlog.Models": "1.0.0"
+        },
+        "runtime": {
+          "MyBlog.Repositories.dll": {}
+        }
+      },
+      "MyBlog.Models/1.0.0": {
+        "runtime": {
+          "MyBlog.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MyBlog.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MyBlog.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
