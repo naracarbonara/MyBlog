@@ -1,13 +1,14 @@
 ﻿@model MyBlog.Models.Post;
 
 @{
-    Layout = "_Layout";
+   Layout = "_Layout";
+    ViewBag.Title = "Details";
  }
 
     <div id="container" style="width: 70%; margin: 0 auto;">
         <img src="@Model.ImageUrl"  style="width:100%" />
         <h1>@Model.Title</h1>
         <p>@Model.Description</p>
-        <h5>@Model.Director</h5>
+        <h5>@Model.Editor</h5>
     </div>
 

@@ -12,6 +12,6 @@ namespace MyBlog.Models
         public string ImageUrl { get; set; }
         
         public string Description { get; set; }
-        public string Director { get; set; }
+        public string Editor { get; set; }
     }
 }

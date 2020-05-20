@@ -33,3 +33,4 @@ D:\GitHub\MyBlog\MyBlog\MyBlog\bin\Debug\netcoreapp2.1\MyBlog.Services.dll
 D:\GitHub\MyBlog\MyBlog\MyBlog\bin\Debug\netcoreapp2.1\MyBlog.Services.pdb
 D:\GitHub\MyBlog\MyBlog\MyBlog\bin\Debug\netcoreapp2.1\MyBlog.Models.pdb
 D:\GitHub\MyBlog\MyBlog\MyBlog\bin\Debug\netcoreapp2.1\MyBlog.Repositories.pdb
+D:\GitHub\MyBlog\MyBlog\MyBlog\obj\Debug\netcoreapp2.1\Razor\Views\Post\Create.cshtml.g.cs
