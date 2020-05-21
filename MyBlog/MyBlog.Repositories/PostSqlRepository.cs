@@ -71,5 +71,38 @@ namespace MyBlog.Repositories
 
 
         }
+
+        public List<Post> GetByTitle(string title) 
+        {
+            var result = new List<Post>();
+            using (var cnn = new SqlConnection("Data Source=.\\SQLEXPRESS; Initial Catalog=MyBlogSqlDemo; Integrated Security=true")) 
+            {
+                cnn.Open();
+                var query = "select * from posts";
+                if (!String.IsNullOrEmpty(title)) 
+                {
+                    query = $"{query} where title like @title"; 
+                }
+
+                var cmd = new SqlCommand(query, cnn);
+
+                if (!String.IsNullOrEmpty(title)) 
+                {
+                    cmd.Parameters.AddWithValue("@title", $"%{title}%");
+                }
+               var reader= cmd.ExecuteReader();
+                while(reader.Read())
+                {
+                    Post post = new Post();
+                    post.Id = reader.GetInt32(0);
+                    post.Title = reader.GetString(1);
+                    post.Description = reader.GetString(2);
+                    post.ImageUrl = reader.GetString(3);
+                    post.Editor = reader.GetString(4);
+                    result.Add(post);
+                }
+            }
+            return result;
+        }
     }
 }

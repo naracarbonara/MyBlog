@@ -11,5 +11,7 @@ namespace MyBlog.Repositories.Interfaces
         Post GetById(int id);
         void Add(Post post);
 
+        List<Post> GetByTitle(string title);
+
     }
 }

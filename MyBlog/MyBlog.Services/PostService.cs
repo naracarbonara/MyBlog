@@ -30,5 +30,10 @@ namespace MyBlog.Services
         {
             PostRepo.Add(post);
         }
+
+        public List<Post> GetByTitle(string title) 
+        {
+            return PostRepo.GetByTitle(title);
+        }
     }
 }

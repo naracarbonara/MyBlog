@@ -60,6 +60,10 @@ namespace MyBlog.Repositories
             var maxId = posts.Max(x => x.Id);
             post.Id = maxId + 1;
             Posts.Add(post);
-        } 
+        }
+        public List<Post> GetByTitle(string title) 
+        {
+            throw new NotImplementedException();
+        }
     }
 }

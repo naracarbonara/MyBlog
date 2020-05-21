@@ -15,9 +15,9 @@ namespace MyBlog.Controllers
         {
             PostService = postservice;
         }
-        public IActionResult Overview()
+        public IActionResult Overview(string title)
         {
-            var posts = PostService.GetAll();
+            var posts = PostService.GetByTitle(title);
             return View(posts);
         }
 
